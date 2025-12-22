@@ -17,7 +17,7 @@ const MobileFrame = ({ children }: MobileFrameProps) => {
       {!isHome && (
         <button
           onClick={() => navigate("/")}
-          className="absolute bottom-4 left-1/2 -translate-x-1/2 md:bottom-[calc(50%-430px)] w-10 h-10 rounded-full bg-background shadow-lg border border-border flex items-center justify-center hover:bg-muted transition-all hover:scale-105 active:scale-95"
+          className="absolute left-4 top-1/2 -translate-y-1/2 md:left-[calc(50%-230px)] w-10 h-10 rounded-full bg-background shadow-lg border border-border flex items-center justify-center hover:bg-muted transition-all hover:scale-105 active:scale-95"
           aria-label="Back to home"
         >
           <ArrowLeft className="w-5 h-5 text-foreground" />
